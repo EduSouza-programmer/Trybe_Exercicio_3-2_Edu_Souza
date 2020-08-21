@@ -70,7 +70,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
 ### Minha página web estilizada o/
 
-<p>Link para minha <a font-style="italic">página</a> </p>
+<p>Link para minha  <a href="https://www.linkedin.com/in/eduardosouzaprogrammer/" target="_blank">página</a> </p>
 
 #### Resposta:
 
