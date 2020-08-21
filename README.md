@@ -76,14 +76,12 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
     <!DOCTYPE html>
     <html lang="pt">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Eduardo Souza</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-
     <body>
         <header>
             <div class="links">
@@ -91,7 +89,6 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
                 <a href="/Exercícios_HTML/projeto_Livro-de-receitas.html" target="_blank">Projeto</a>
             </div>
         </header>
-
         <main>
             <div id="wrapper">
                 <a href="https://avatars0.githubusercontent.com/u/23068430?s=400&u=fdf94a10158b5f9e4a694c98c48c2dd192eba4e0&v=4"
@@ -134,11 +131,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
     </body>
     </html>
 
-### Inicie uma lista!
-
-2. O que você quer aprender? Um monte de coisas, eu aposto! Vamos criar uma lista numerada com algumas dessas coisas. Você se lembra de como iniciar uma lista numerada?
-
-#### Resposta:
+#### Código CSS:
 
     <!DOCTYPE HTML>
     <html>
