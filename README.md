@@ -289,41 +289,8 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
 #### Resposta:
 
-    <!DOCTYPE HTML>
-    <html>
-        <head>
-            <title>Challenge: A picture-perfect trip</title>
-            <meta charset="utf-8">
-        </head>
-        <body>
+   <!DOCTYPE html>
 
-            <h2>Desafio: Uma viagem perfeita</h2>
-
-            <h1>The perfect trip</h1>
-
-            <img src="https://www.kasandbox.org/programming-images/landscapes/beach-in-hawaii.png" alt="Uma ilha maravilhosa, com montanhas e aguas claras" width="400px">
-
-            <p>I would see scenes like...</p>
-
-            <img src="https://www.kasandbox.org/programming-images/landscapes/beach-sunset.png" alt="O por do sol maravilhoso" width="400">
-
-            <p>And animals like...</p>
-
-            <img src="https://www.kasandbox.org/programming-images/animals/butterfly_monarch.png" alt="Borboleta com cores lindas" width="400px">
-
-            <p>And eat food like...</p>
-            <img src="https://www.kasandbox.org/programming-images/food/sushi.png" alt="Sushi deliciosos" width="400px">
-
-        </body>
-    </html>
-
-### Marque o texto
-
-4. Criamos essa página com as palavras de "Você pode aprender qualquer coisa", um vídeo feito pela Khan Academy. Usando as tags <strong> e <em> que você acabou de aprender, marque o texto para mostrar o que você acha deve ser enfatizado e destacado.
-
-#### Resposta:
-
-    <!DOCTYPE html>
     <html>
     <head>
     <meta charset="utf-8">
@@ -587,6 +554,12 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
     </footer>
     </body>
     </html>
+
+### Marque o texto
+
+4. Criamos essa página com as palavras de "Você pode aprender qualquer coisa", um vídeo feito pela Khan Academy. Usando as tags <strong> e <em> que você acabou de aprender, marque o texto para mostrar o que você acha deve ser enfatizado e destacado.
+
+#### Resposta:
 
 ### Adicione links internos
 
