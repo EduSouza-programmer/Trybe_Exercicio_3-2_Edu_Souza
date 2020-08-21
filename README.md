@@ -559,7 +559,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
 ### Pinte o título inverno
 
-1. Essa página web descreve as estações favoritas de Olaf, um boneco de neve que ama o sol. Ambas as tags <h2> têm ids, mas não há regras CSS para estilizá-las. Adicione 2 regras que atribuam cor aos títulos.
+1. Essa página web descreve as estações favoritas de Olaf, um boneco de neve que ama o sol. Ambas as tags "h2" têm ids, mas não há regras CSS para estilizá-las. Adicione 2 regras que atribuam cor aos títulos.
 
 #### Resposta:
 
