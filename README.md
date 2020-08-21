@@ -597,7 +597,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
 2. Essa página web mostra algumas citações e declarações famosas de filmes e programas de TV. Adicione uma regra CSS que
    faz com que todas as citações tenham uma fonte de estilo itálico, de forma que elas se pareçam mais com citações.
-   Adicione uma regra CSS que faz com que todas as declarações tenham uma fonte destacada em negrito, assim vai parecer que elas foram ditas em voz alta. -->
+   Adicione uma regra CSS que faz com que todas as declarações tenham uma fonte destacada em negrito, assim vai parecer que elas foram ditas em voz alta.
 
 #### Resposta:
 
