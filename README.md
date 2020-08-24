@@ -66,15 +66,23 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
 # Entrega
 
+## Sumário
+
+-   <p><a href="#1">1.</a> Estilizar seu Portfólio Web usando todo o conhecimento que você construiu hoje;</p>
+
 ## Questões sobre os desafios [Meus códigos]
 
-### Minha página web estilizada o/
+### 1°
+
+#### Minha página web estilizada o/
 
 <p>Link para meu portfólio web: <a href="https://edusouza-programmer.github.io/" target="_blank">Home</a>.</p>
 
 **PS: Conforme estou avançando nos estudos na Trybe, o código abaixo pode está desatualizado em relação ao meu aprendizado, para uma analise atual, peço que inspencione em seu navegador minha página citada acima.**
 
 #### Código HTML:
+
+```
 
     <!DOCTYPE html>
     <html lang="pt">
@@ -132,6 +140,8 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
         </footer>
     </body>
     </html>
+
+```
 
 #### Código CSS:
 
@@ -282,6 +292,17 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
         text-decoration: none;
         color: #50fa7b;
     }
+
+<p align="right"> 
+    <a href="https://edusouza-programmer.github.io/">
+    <img alt="Go index.html" src="https://img.shields.io/badge/Go-index.html-orange">
+    </a>&nbsp;
+    <a href="#Sumário">
+    <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
+  </a>
+</p>
+
+#
 
 ## Projetos adicionais
 
