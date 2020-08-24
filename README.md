@@ -311,6 +311,7 @@ header {
 
 #### Resposta:
 
+```
    <!DOCTYPE html>
 
     <html>
@@ -576,6 +577,7 @@ header {
     </footer>
     </body>
     </html>
+```
 
 ## Exercício adicionais
 
@@ -671,6 +673,10 @@ header {
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT - consulte [LICENSE](https://opensource.org/licenses/MIT) para maiores detalhes.
+
+```
+
+```
 
 ```
 
