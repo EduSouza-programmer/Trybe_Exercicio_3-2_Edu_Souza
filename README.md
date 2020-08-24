@@ -84,7 +84,8 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
 <details>
  <summary>Seu código HTML dentro do arquivo markdown</summary>
-```
+
+```dart
 <!DOCTYPE html>
 <html lang="pt">
     <head>
@@ -143,8 +144,8 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 </html>
 
 ```
-</details>
 
+</details>
 
 #### Código CSS:
 
@@ -675,4 +676,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT - consulte [LICENSE](https://opensource.org/licenses/MIT) para maiores detalhes.
+
+```
+
 ```
