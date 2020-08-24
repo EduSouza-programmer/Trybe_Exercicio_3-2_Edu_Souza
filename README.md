@@ -66,7 +66,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
 # Entrega
 
-## Sumário
+### Sumário
 
 -   <p><a href="#1">1.</a> Estilizar seu Portfólio Web usando todo o conhecimento que você construiu hoje;</p>
 
@@ -81,6 +81,8 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 ### **_Projetos_**
 
 -   <p><a href="#Project_1">Projeto_1:</a> Esse projeto, você vai usar tudo o que aprendeu até agora para criar um site de viagens incentivando as pessoas a visitar um lugar exótico. Você deve ter imagens do que elas vão ver, listas de coisas para ver e lugares para ir e parágrafos de detalhes interessantes. Você também deve usar CSS para estilizar o site, usando uma mistura de seletores simples que você aprendeu.</p>
+
+#
 
 ## Questões sobre os desafios [Meus códigos]
 
@@ -388,7 +390,9 @@ header {
 #### Resposta:
 
 <details>
+
 <summary>Código HTML</summary>
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -429,9 +433,9 @@ header {
             Earth, water, fire. Together, we are CAPTAIN PLANET!
         </p>
     </body>
-
 </html>
 ```
+
 </details>
 
 <p align="right">
@@ -455,6 +459,7 @@ header {
 
 <details>
 <summary>Código HTML</summary>
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -487,9 +492,9 @@ header {
             Great big words. La la la la la la la la la la!
         </p>
     </body>
-
 </html>
 ```
+
 </details>
 
 <p align="right">
