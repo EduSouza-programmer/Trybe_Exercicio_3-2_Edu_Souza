@@ -82,6 +82,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
 #### Código HTML:
 
+<details>
 ```
 <!DOCTYPE html>
 <html lang="pt">
@@ -141,6 +142,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 </html>
 
 ```
+</details>
 
 #### Código CSS:
 
@@ -292,7 +294,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
         color: #50fa7b;
     }
 
-<p align="right"> 
+<p align="right">
     <a href="https://edusouza-programmer.github.io/">
     <img alt="Go index.html" src="https://img.shields.io/badge/Go-index.html-orange">
     </a>&nbsp;
@@ -671,3 +673,4 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT - consulte [LICENSE](https://opensource.org/licenses/MIT) para maiores detalhes.
+```
