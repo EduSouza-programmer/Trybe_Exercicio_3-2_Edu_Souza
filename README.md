@@ -70,15 +70,29 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
 -   <p><a href="#1">1.</a> Estilizar seu Portfólio Web usando todo o conhecimento que você construiu hoje;</p>
 
+-   <p><a href="#2">2.</a> Essa página web descreve as estações favoritas de Olaf, um boneco de neve que ama o sol. Ambas as tags "h2" têm ids, mas não há regras CSS para estilizá-las. Adicione 2 regras que atribuam cor aos títulos.</p>
+
+-   <p><a href="#3">3.</a> Essa página web mostra algumas citações e declarações famosas de filmes e programas de TV. Adicione uma regra CSS que
+    faz com que todas as citações tenham uma fonte de estilo itálico, de forma que elas se pareçam mais com citações.
+    Adicione uma regra CSS que faz com que todas as declarações tenham uma fonte destacada em negrito, assim vai parecer que elas foram ditas em voz alta.</p>
+
+-   <p><a href="#4">4.</a> Essa página web inclui a letra de uma música sobre palavras grandes. Colocamos as classes 'big' e 'bigger' nas tags "em" que descrevem palavras grandes, mas não as estilizamos. Adicione uma propriedade às regras CSS para tornar grande o tamanho das palavras 'big', e para tornar ainda maior o tamanho das palavras 'bigger'. Use as mesmas unidades para ambas as propriedades.</p>
+
+### **_Projetos_**
+
+-   <p><a href="#Project_1">Projeto_1:</a> Esse projeto, você vai usar tudo o que aprendeu até agora para criar um site de viagens incentivando as pessoas a visitar um lugar exótico. Você deve ter imagens do que elas vão ver, listas de coisas para ver e lugares para ir e parágrafos de detalhes interessantes. Você também deve usar CSS para estilizar o site, usando uma mistura de seletores simples que você aprendeu.</p>
+
 ## Questões sobre os desafios [Meus códigos]
 
 ### 1°
 
 #### Minha página web estilizada o/
 
+-   Estilizar seu Portfólio Web usando todo o conhecimento que você construiu hoje;
+
 <p>Link para meu portfólio web: <a href="https://edusouza-programmer.github.io/" target="_blank">Home</a>.</p>
 
-**PS: Conforme estou avançando nos estudos na Trybe, o código abaixo pode está desatualizado em relação ao meu aprendizado, para uma analise atual, peço que inspencione em seu navegador minha página citada acima.**
+**_PS: Conforme estou avançando nos estudos na Trybe, o código abaixo pode está desatualizado em relação ao meu aprendizado, para uma analise atual, peço que inspencione em seu navegador minha página citada acima._**
 
 #### Código HTML:
 
@@ -310,385 +324,469 @@ header {
 
 #
 
-## Projetos adicionais
-
-### Projeto: página web sobre viagens
-
-1. Esse projeto, você vai usar tudo o que aprendeu até agora para criar um site de viagens incentivando as pessoas a visitar um lugar exótico. Você deve ter imagens do que elas vão ver, listas de coisas para ver e lugares para ir e parágrafos de detalhes interessantes. Você também deve usar CSS para estilizar o site, usando uma mistura de seletores simples que você aprendeu.
-
-#### Resposta:
-
-```
-   <!DOCTYPE html>
-
-    <html>
-    <head>
-    <meta charset="utf-8">
-    <title>Projeto: Viagem Edu </title>
-    <style>
-
-        /* reset */
-
-        :root {
-        --varPreto: #252525;
-        }
-        * {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        }
-        body {
-        font-family: Georgia, serif;
-        color: var(--varPreto);
-        }
-
-        /* header */
-
-        .header {
-        background-color: var(--varPreto);
-        padding: 20px 0;
-        }
-        .menu-container {
-        max-width: 1180px;
-        margin: 0 auto;
-        }
-        .menu-container::after,
-        .menu-container::before {
-        content: '';
-        display: table;
-        clear: both;
-        }
-        .menu-logo {
-        font-size: 32px;
-        font-weight: bold;
-        display: block;
-        float: left;
-        margin-left: 10px;
-        text-decoration: none;
-        color: white;
-        }
-        .menu-nav {
-        float: right;
-        margin-right: 10px;
-        }
-        .menu-nav-link {
-        display: inline-block;
-        }
-        .menu-nav-link>a {
-        display: block;
-        padding: 10px;
-        text-decoration: none;
-        color: #fff;
-        font-size: 18px;
-        font-weight: bold;
-        }
-
-        /* intro */
-
-        .intro {
-        background: url("https://upload.wikimedia.org/wikipedia/commons/2/2b/Johny_Cay.jpg") no-repeat center center;
-        background-size: cover;
-        padding: 200px 0;
-        text-align: center;
-        color: var(--varPreto);
-        }
-        .intro h1 {
-        text-transform: uppercase;
-        font-size: 48px;
-        margin-top: 200px;
-        }
-        .intro h1::after {
-        content: '';
-        display: block;
-        width: 20px;
-        height: 4px;
-        background-color: var(--varPreto);
-        margin: 10px auto;
-        }
-        .intro p {
-        font-style: italic;
-        font-size: 18px;
-        }
-
-        /* sobre */
-
-        .sobre {
-        padding: 60px 0;
-        }
-
-        .sobre h2 {
-        text-align: center;
-        font-size: 36px;
-        margin-bottom: 60px;
-        }
-        .sobre>p {
-        font-size: 18px;
-        line-height: 1.4em;
-        font-style: italic;
-        text-align: center;
-        max-width: 590px;
-        margin: 20px auto;
-        }
-        .sobre-container {
-        max-width: 1180px;
-        margin: 0 auto;
-        }
-        .sobre-container::after,
-        .sobre-container::before {
-        content: '';
-        display: table;
-        clear: both;
-        }
-        .sobre-item {
-        width: 570px;
-        float: left;
-        margin: 0 10px;
-        }
-        .sobre-item img {
-        width: 570px;
-        height: 370px;
-        display: block;
-        max-width: 100%;
-        }
-        .sobre-item h3 {
-        font-size: 42px;
-        line-height: 1em;
-        font-weight: normal;
-        font-style: italic;
-        background-color: var(--varPreto);
-        color: #fff;
-        width: 220px;
-        text-align: center;
-        padding: 5px 0 10px 0px;
-        top: -25px;
-        position: relative;
-        }
-        .produtos {
-        background: url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Bacia_do_Pina_-_Recife%2C_Pernambuco%2C_Brasil.jpg") no-repeat center center;
-        background-size: cover;
-        padding: 150px 0;
-        border-top: #d6d3c8 solid 3px;
-        }
-        .produtos-conteiner {
-        max-width: 700px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        }
-        .list-produtos h3 {
-        margin-bottom: 30px;
-        font-size: 40px;
-        color: var(--varPreto);
-        }
-        .list-produtos ul {
-        line-height: 24px;
-        }
-        .list-produtos li {
-        list-style-type: none;
-        font-size: 18px;
-        color: var(--varPreto);
-        margin-left: 16px;
-        }
-        .projeto {
-        padding: 60px 0;
-        }
-        .contatos {
-        background-color: var(--varPreto);
-        padding: 25px 0;
-        }
-        .contatos p {
-        color: #fff;
-        text-align: center;
-        font-size: 18px;
-        }
-        .contatos a {
-        color: #50fa7b;
-        text-decoration: none;
-        }
-        .contatos a:hover {
-        color: #fff;
-        text-decoration: underline;
-        transition: color 300ms;
-        }
-    </style>
-    </head>
-
-    <body>
-    <header class="header">
-        <div class="menu-container">
-        <a class="menu-logo" href="https://i.ibb.co/g4n9tLG/Edu-Sky.png">Edu's Sky</a>
-        <nav class=" menu-nav">
-            <ul>
-            <li class="menu-nav-link"><a href="#sobre">Sobre</a></li>
-            <li class="menu-nav-link"><a href="#produtos">Produtos</a></li>
-            <li class="menu-nav-link"><a href="#contatos">Contatos</a></li>
-            <li class="menu-nav-link"><a href="#projeto">Projeto</a></li>
-            </ul>
-        </nav>
-        </div>
-    </header>
-    <main class="intro">
-        <h1>A SUA VIAGEM<br>COMEÇA AGORA</h1>
-    </main>
-    <section class="sobre" id="sobre">
-        <h2>Ferias maravilhosas com:</h2>
-        <div class="sobre-container">
-        <div class="sobre-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Air_traffic_controller_schiphol_tower.jpg"
-            alt="Homem focado no trabalho">
-            <h3>Segurança</h3>
-        </div>
-        <div class="sobre-item">
-            <img
-            src="https://images.squarespace-cdn.com/content/v1/568d7ccb25981d9e06ac4bf2/1455141958022-VKCTKCOP2JM2D9JKN7C4/ke17ZwdGBToddI8pDm48kPoswlzjSVMM-SxOp7CV59BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIeQMKeWYgwh6Mn73n2eZmZLHHpcPIxgL2SArp_rN2M_AKMshLAGzx4R3EDFOm1kBS/Pilatus+PC-12+Interior.jpg"
-            alt="Interior da aeronave com muito luxo e conforto">
-            <h3>Conforto</h3>
-        </div>
-        </div>
-        <p>Com agente você encontra os <strong>melhores roteiros</strong> de viagens,<br>
-        diversas opções de passeios, percorrendo os pontos turísticos de sua escolha numa
-        <strong>experiência unica</strong>, não espere mais,você encontrou o que precisa! Agende hoje mesmo sua viagem com
-        <br><strong>Edu's
-            Sky</strong>.</p>
-    </section>
-    <section id="produtos" class="produtos">
-        <div class="produtos-conteiner">
-        <div class="list-produtos">
-            <h3>Verdadeiros Tours</h3>
-            <ul>
-            <li><strong>Brasil</strong></li>
-            <li>Bolívia</li>
-            <li><em>Argentina</em></li>
-            <li>Peru</li>
-            </ul>
-        </div>
-        <div class="list-produtos">
-            <h3>Conheça lugares</h3>
-            <ul>
-            <li><strong>Terra Ronca - Brasil</strong></li>
-            <li>Uyuni - Bolívia</li>
-            <li>El Chaltén - Argentina</li>
-            <li><em>Huaraz - Peru</em></li>
-            </ul>
-        </div>
-        </div>
-    </section>
-    <section id="projeto" class="projeto">
-    </section>
-    <footer id="contatos" class="contatos">
-        <div>
-        <p>Feito com ♥ por <a href="https://www.linkedin.com/in/eduardosouzaprogrammer/" target="_blank"><em>Edu
-                Souza</em></a></p>
-        </div>
-    </footer>
-    </body>
-    </html>
-```
-
-## Exercício adicionais
+### 2°
 
 ### Pinte o título inverno
 
-1. Essa página web descreve as estações favoritas de Olaf, um boneco de neve que ama o sol. Ambas as tags "h2" têm ids, mas não há regras CSS para estilizá-las. Adicione 2 regras que atribuam cor aos títulos.
+-   Essa página web descreve as estações favoritas de Olaf, um boneco de neve que ama o sol. Ambas as tags "h2" têm ids, mas não há regras CSS para estilizá-las. Adicione 2 regras que atribuam cor aos títulos.
 
 #### Resposta:
 
-    <!DOCTYPE html>
-    <html>
-
+```html
+<!DOCTYPE html>
+<html>
     <head>
-    <meta charset="utf-8">
-    <title>Challenge: Seasonal ids</title>
-    <style>
-        #summer {
-        color: orange;
-        }
+        <meta charset="utf-8" />
+        <title>Challenge: Seasonal ids</title>
+        <style>
+            #summer {
+                color: orange;
+            }
 
-        #winter {
-        color: blue;
-        }
-    </style>
+            #winter {
+                color: blue;
+            }
+        </style>
     </head>
 
     <body>
+        <h1>Olaf's favorite seasons</h1>
 
-    <h1>Olaf's favorite seasons</h1>
+        <h2 id="summer">Summer</h2>
+        <p>He's a happy snowman, doing what frozen things do in summer.</p>
 
-    <h2 id="summer">Summer</h2>
-    <p>He's a happy snowman, doing what frozen things do in summer.</p>
-
-    <h2 id="winter">Winter</h2>
-    <p>He likes to stay in and cuddle</p>
+        <h2 id="winter">Winter</h2>
+        <p>He likes to stay in and cuddle</p>
     </body>
+</html>
+```
 
-    </html>
+<p align="right">
+    <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_3-2_Edu_Souza/parte-1/challenge-ids_sazonais.html">
+    <img alt="Go index.html" src="https://img.shields.io/badge/Go-index.html-orange">
+    </a>&nbsp;
+    <a href="#Sumário">
+    <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
+  </a>
+</p>
 
-### Faça citações em itálico e Faça declarações em negrito
+#
 
-2. Essa página web mostra algumas citações e declarações famosas de filmes e programas de TV. Adicione uma regra CSS que
-   faz com que todas as citações tenham uma fonte de estilo itálico, de forma que elas se pareçam mais com citações.
-   Adicione uma regra CSS que faz com que todas as declarações tenham uma fonte destacada em negrito, assim vai parecer que elas foram ditas em voz alta.
+### 3°
+
+#### Faça citações em itálico e Faça declarações em negrito
+
+-   Essa página web mostra algumas citações e declarações famosas de filmes e programas de TV. Adicione uma regra CSS que
+    faz com que todas as citações tenham uma fonte de estilo itálico, de forma que elas se pareçam mais com citações.
+    Adicione uma regra CSS que faz com que todas as declarações tenham uma fonte destacada em negrito, assim vai parecer que elas foram ditas em voz alta.
 
 #### Resposta:
 
-    <!DOCTYPE html>
-    <html>
-
+```html
+<!DOCTYPE html>
+<html>
     <head>
-    <meta charset="utf-8">
-    <title>Challenge: Famous font formats</title>
-    <style>
-        .declaration {
-        font-weight: bold;
-        }
+        <meta charset="utf-8" />
+        <title>Challenge: Famous font formats</title>
+        <style>
+            .declaration {
+                font-weight: bold;
+            }
 
-        .quote {
-
-        font-style: italic;
-        }
-    </style>
+            .quote {
+                font-style: italic;
+            }
+        </style>
     </head>
 
     <body>
+        <h2>Famous quotes</h2>
+        <p class="quote">
+            "My mama always said life was like a box of chocolates. You never know what you're gonna get.".
+            <br />
+            - Forrest Gump
+        </p>
 
-    <h2>Famous quotes</h2>
-    <p class="quote">
-        "My mama always said life was like a box of chocolates. You never know what you're gonna get.".
-        <br> - Forrest Gump
-    </p>
+        <p class="quote">
+            "May the force be with you."
+            <br />- Star Wars
+        </p>
 
-    <p class="quote">
-        "May the force be with you."
-        <br>- Star Wars
-    </p>
+        <h2>Famous declarations</h2>
 
-    <h2>Famous declarations</h2>
+        <p class="declaration">
+            I'M BATMAN.
+        </p>
 
-    <p class="declaration">
-        I'M BATMAN.
-    </p>
-
-    <p class="declaration">
-        Earth, water, fire. Together, we are CAPTAIN PLANET!
-    </p>
-
+        <p class="declaration">
+            Earth, water, fire. Together, we are CAPTAIN PLANET!
+        </p>
     </body>
+</html>
+```
 
-    </html>
+<p align="right">
+    <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_3-2_Edu_Souza/parte-2/challenge_formatos_de_fonte_famosos.html">
+    <img alt="Go index.html" src="https://img.shields.io/badge/Go-index.html-orange">
+    </a>&nbsp;
+    <a href="#Sumário">
+    <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
+  </a>
+</p>
+
+#
+
+### 4°
+
+#### Crie tamanhos de fonte grandes
+
+-   Essa página web inclui a letra de uma música sobre palavras grandes. Colocamos as classes 'big' e 'bigger' nas tags "em" que descrevem palavras grandes, mas não as estilizamos. Adicione uma propriedade às regras CSS para tornar grande o tamanho das palavras 'big', e para tornar ainda maior o tamanho das palavras 'bigger'. Use as mesmas unidades para ambas as propriedades.
+
+#### Resposta:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Challenge: Great big font sizes</title>
+        <style>
+            .big {
+                font-size: 18px;
+            }
+
+            .bigger {
+                font-size: 2em;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Great Big Words</h1>
+        <h2>by Michael Mark & Tom Chapin</h2>
+
+        <p>
+            When I was a little kid, a "<em class="big">diminutive juvenile</em>," <br />
+            I liked my folks to read to me, I was an <em class="big">"eager bibliophile."</em> <br />
+            Now I love words for how they sound <br />
+            And how they <em class="big">"communicate."</em> <br />
+            Perhaps I should explain myself, that is, <em class="big">"elucidate."</em> <br />
+            Great big words, I like <em class="big">big</em> words. <br />
+            Letter by letter, the <em class="bigger">bigger</em> the better <br />
+            Great big words. La la la la la la la la la la!
+        </p>
+    </body>
+</html>
+```
+
+<p align="right">
+    <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_3-2_Edu_Souza/parte-2/challenge_tamanhos_de_fonte_enormes.html">
+    <img alt="Go index.html" src="https://img.shields.io/badge/Go-index.html-orange">
+    </a>&nbsp;
+    <a href="#Sumário">
+    <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
+  </a>
+</p>
+
+#
+
+### Projetos
+
+### Project_1°
+
+#### Projeto: página web sobre viagens
+
+-   Esse projeto, você vai usar tudo o que aprendeu até agora para criar um site de viagens incentivando as pessoas a visitar um lugar exótico. Você deve ter imagens do que elas vão ver, listas de coisas para ver e lugares para ir e parágrafos de detalhes interessantes. Você também deve usar CSS para estilizar o site, usando uma mistura de seletores simples que você aprendeu.
+
+#### Resposta:
+
+<details>
+<Summary>Código HTML & CSS</summary>
+
+```html
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Projeto: Viagem Edu</title>
+        <style>
+            /* reset */
+
+            :root {
+                --varPreto: #252525;
+            }
+            * {
+                margin: 0;
+                padding: 0;
+                border: 0;
+            }
+            body {
+                font-family: Georgia, serif;
+                color: var(--varPreto);
+            }
+
+            /* header */
+
+            .header {
+                background-color: var(--varPreto);
+                padding: 20px 0;
+            }
+            .menu-container {
+                max-width: 1180px;
+                margin: 0 auto;
+            }
+            .menu-container::after,
+            .menu-container::before {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .menu-logo {
+                font-size: 32px;
+                font-weight: bold;
+                display: block;
+                float: left;
+                margin-left: 10px;
+                text-decoration: none;
+                color: white;
+            }
+            .menu-nav {
+                float: right;
+                margin-right: 10px;
+            }
+            .menu-nav-link {
+                display: inline-block;
+            }
+            .menu-nav-link > a {
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                color: #fff;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            /* intro */
+
+            .intro {
+                background: url("https://upload.wikimedia.org/wikipedia/commons/2/2b/Johny_Cay.jpg") no-repeat center
+                    center;
+                background-size: cover;
+                padding: 200px 0;
+                text-align: center;
+                color: var(--varPreto);
+            }
+            .intro h1 {
+                text-transform: uppercase;
+                font-size: 48px;
+                margin-top: 200px;
+            }
+            .intro h1::after {
+                content: "";
+                display: block;
+                width: 20px;
+                height: 4px;
+                background-color: var(--varPreto);
+                margin: 10px auto;
+            }
+            .intro p {
+                font-style: italic;
+                font-size: 18px;
+            }
+
+            /* sobre */
+
+            .sobre {
+                padding: 60px 0;
+            }
+
+            .sobre h2 {
+                text-align: center;
+                font-size: 36px;
+                margin-bottom: 60px;
+            }
+            .sobre > p {
+                font-size: 18px;
+                line-height: 1.4em;
+                font-style: italic;
+                text-align: center;
+                max-width: 590px;
+                margin: 20px auto;
+            }
+            .sobre-container {
+                max-width: 1180px;
+                margin: 0 auto;
+            }
+            .sobre-container::after,
+            .sobre-container::before {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .sobre-item {
+                width: 570px;
+                float: left;
+                margin: 0 10px;
+            }
+            .sobre-item img {
+                width: 570px;
+                height: 370px;
+                display: block;
+                max-width: 100%;
+            }
+            .sobre-item h3 {
+                font-size: 42px;
+                line-height: 1em;
+                font-weight: normal;
+                font-style: italic;
+                background-color: var(--varPreto);
+                color: #fff;
+                width: 220px;
+                text-align: center;
+                padding: 5px 0 10px 0px;
+                top: -25px;
+                position: relative;
+            }
+            .produtos {
+                background: url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Bacia_do_Pina_-_Recife%2C_Pernambuco%2C_Brasil.jpg")
+                    no-repeat center center;
+                background-size: cover;
+                padding: 150px 0;
+                border-top: #d6d3c8 solid 3px;
+            }
+            .produtos-conteiner {
+                max-width: 700px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .list-produtos h3 {
+                margin-bottom: 30px;
+                font-size: 40px;
+                color: var(--varPreto);
+            }
+            .list-produtos ul {
+                line-height: 24px;
+            }
+            .list-produtos li {
+                list-style-type: none;
+                font-size: 18px;
+                color: var(--varPreto);
+                margin-left: 16px;
+            }
+            .projeto {
+                padding: 60px 0;
+            }
+            .contatos {
+                background-color: var(--varPreto);
+                padding: 25px 0;
+            }
+            .contatos p {
+                color: #fff;
+                text-align: center;
+                font-size: 18px;
+            }
+            .contatos a {
+                color: #50fa7b;
+                text-decoration: none;
+            }
+            .contatos a:hover {
+                color: #fff;
+                text-decoration: underline;
+                transition: color 300ms;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="menu-container">
+                <a class="menu-logo" href="https://i.ibb.co/g4n9tLG/Edu-Sky.png">Edu's Sky</a>
+                <nav class=" menu-nav">
+                    <ul>
+                        <li class="menu-nav-link"><a href="#sobre">Sobre</a></li>
+                        <li class="menu-nav-link"><a href="#produtos">Produtos</a></li>
+                        <li class="menu-nav-link"><a href="#contatos">Contatos</a></li>
+                        <li class="menu-nav-link"><a href="#projeto">Projeto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="intro">
+            <h1>A SUA VIAGEM<br />COMEÇA AGORA</h1>
+        </main>
+        <section class="sobre" id="sobre">
+            <h2>Ferias maravilhosas com:</h2>
+            <div class="sobre-container">
+                <div class="sobre-item">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/3/31/Air_traffic_controller_schiphol_tower.jpg"
+                        alt="Homem focado no trabalho"
+                    />
+                    <h3>Segurança</h3>
+                </div>
+                <div class="sobre-item">
+                    <img
+                        src="https://images.squarespace-cdn.com/content/v1/568d7ccb25981d9e06ac4bf2/1455141958022-VKCTKCOP2JM2D9JKN7C4/ke17ZwdGBToddI8pDm48kPoswlzjSVMM-SxOp7CV59BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIeQMKeWYgwh6Mn73n2eZmZLHHpcPIxgL2SArp_rN2M_AKMshLAGzx4R3EDFOm1kBS/Pilatus+PC-12+Interior.jpg"
+                        alt="Interior da aeronave com muito luxo e conforto"
+                    />
+                    <h3>Conforto</h3>
+                </div>
+            </div>
+            <p>
+                Com agente você encontra os <strong>melhores roteiros</strong> de viagens,<br />
+                diversas opções de passeios, percorrendo os pontos turísticos de sua escolha numa
+                <strong>experiência unica</strong>, não espere mais,você encontrou o que precisa! Agende hoje mesmo sua
+                viagem com <br /><strong>Edu's Sky</strong>.
+            </p>
+        </section>
+        <section id="produtos" class="produtos">
+            <div class="produtos-conteiner">
+                <div class="list-produtos">
+                    <h3>Verdadeiros Tours</h3>
+                    <ul>
+                        <li><strong>Brasil</strong></li>
+                        <li>Bolívia</li>
+                        <li><em>Argentina</em></li>
+                        <li>Peru</li>
+                    </ul>
+                </div>
+                <div class="list-produtos">
+                    <h3>Conheça lugares</h3>
+                    <ul>
+                        <li><strong>Terra Ronca - Brasil</strong></li>
+                        <li>Uyuni - Bolívia</li>
+                        <li>El Chaltén - Argentina</li>
+                        <li><em>Huaraz - Peru</em></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="projeto" class="projeto"></section>
+        <footer id="contatos" class="contatos">
+            <div>
+                <p>
+                    Feito com ♥ por
+                    <a href="https://www.linkedin.com/in/eduardosouzaprogrammer/" target="_blank"><em>Edu Souza</em></a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
+```
+
+</details>
+
+<p align="right">
+    <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_3-2_Edu_Souza/parte-1/challenge_projeto-_pagina_web_sobre_viagens.html">
+    <img alt="Go index.html" src="https://img.shields.io/badge/Go-index.html-orange">
+    </a>&nbsp;
+    <a href="#Sumário">
+    <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
+  </a>
+</p>
 
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT - consulte [LICENSE](https://opensource.org/licenses/MIT) para maiores detalhes.
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
