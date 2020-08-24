@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Launchbase" src="https://i.ibb.co/d4W2x4g/trybe.png" width="400px" />
+    <img alt="Image Trybe" src="https://i.ibb.co/d4W2x4g/trybe.png" width="400px" />
 </h1>
 
 <h3 align="center">
@@ -10,18 +10,14 @@
 
 <h1></h1>
 
-<!-- <div>
-  <img src="https://i.ibb.co/S59Z6Hg/Desafio2-2.gif" alt="demo-web" height="425">
-</div> -->
-
 <p align="center">
 
-  <a href="https://www.linkedin.com/in/eduardosouzaprogrammer/" target="_blank">
+  <a href="https://www.linkedin.com/in/eduardosouzaprogrammer/">
     <img alt="Made by Eduardo Souza" src="https://img.shields.io/badge/made%20by-Edu%20Souza-%23F8952D">
   </a>&nbsp;
 
- <a href="https://edusouza-programmer.github.io/" target="_blank">
-<img alt="Github page site " src="https://img.shields.io/badge/Github%20page-Site-orange">
+ <a href="https://edusouza-programmer.github.io/">
+<img alt="Github page Edu Souza " src="https://img.shields.io/badge/Github%20page-Edu_Souza-orange">
 </a>&nbsp;
 
   <a href="LICENSE" >
@@ -31,12 +27,12 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-sobre-o-exercicio">Sobre o Exercício</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#rocket-Sobre-o-Exercício">Sobre o Exercício</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#Entrega">Entrega</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#Licença">Licença</a>
 </p>
 
-## :rocket: Sobre o Exercício
+# :rocket: Sobre o Exercício
 
 Vamos continuar com a criação do seu Portfólio Web! Agora é hora de estilizar tudo que você aprendeu!
 
@@ -66,11 +62,16 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
 -   Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos;
 
+#
+
+# Entrega
+
 ## Questões sobre os desafios [Meus códigos]
 
 ### Minha página web estilizada o/
 
-<p>Link para meu portfólio web: <a href="https://edusouza-programmer.github.io/" target="_blank">página</a>.</p>
+<p>Link para meu portfólio web: <a href="https://edusouza-programmer.github.io/" target="_blank">Home</a>.</p>
+**PS: Conforme estou avançando nos estudos na Trybe, o código abaixo pode está desatualizado em relação ao meu aprendizado, para uma analise atual, peço que inspencione em seu navegador minha página citada acima.**
 
 #### Código HTML:
 
