@@ -83,6 +83,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 #### Código HTML:
 
 <details>
+ <summary>Seu código HTML dentro do arquivo markdown</summary>
 ```
 <!DOCTYPE html>
 <html lang="pt">
@@ -143,6 +144,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
 ```
 </details>
+
 
 #### Código CSS:
 
