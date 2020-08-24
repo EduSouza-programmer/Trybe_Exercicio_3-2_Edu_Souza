@@ -142,8 +142,9 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
     </footer>
     </body>
 </html>
-
 ```
+
+</details>
 
 #### Código CSS:
 
@@ -152,22 +153,21 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
  <summary>Resolução do meu CSS</summary>
 
 ```dart
-    @import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap";
 
-    :root {
+:root {
     --color-green: #50fa7b;
     --color-green-hover: #248d43;
     --color-rocket: #7159c1
-    }
+}
 
-    *   {
+*   {
     margin: 0;
     padding: 0;
     border: 0;
-    }
+}
 
-    body {
-
+body {
     color: #f1eeee;
     /_ background-color: #282a36; _/
     font-family: 'Source Sans Pro', sans-serif;
@@ -175,47 +175,39 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%2313141a' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%232c2d3b' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%232a2b39' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23282a36' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23272834' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23252631' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%2323252f' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%2321232d' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%2320212a' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%231e2028' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%231c1e26' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%231b1c24' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23191b21' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%2318191f' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%2316171d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%2315161b' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23131419' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23111216' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%230f1014' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
+}
 
-    }
-
-    header {
-
+header {
     border-bottom: 1px solid #333333;
     background-color: #0000003f;
     padding: 25px 0;
-    }
+}
 
-    .links {
-
+.links {
     text-align: center;
+}
 
-    }
-
-    .links a {
+.links a {
     color: #fff;
     font-weight: bold;
     font-size: 21px;
     line-height: 28px;
     margin: 0 15px;
-
     text-decoration: none;
+}
 
-    }
-
-    .links a:hover {
+.links a:hover {
     color: var(--color-green);
     transition: color 500ms;
     text-decoration: underline;
-    }
+}
 
-    #wrapper {
-
+#wrapper {
     text-align: center;
     padding: 60px;
+}
 
-    }
-
-    #wrapper img {
+#wrapper img {
 
     border-radius: 50%;
     border: 5px solid var(--color-green);
@@ -223,82 +215,82 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
     height: 200px;
     transition: border-color 500ms;
 
-    }
+}
 
-    #wrapper img:hover {
+#wrapper img:hover {
     border-color: var(--color-green-hover);
     transition: border-color 500ms;
-    }
+}
 
-    #wrapper h1 {
-
+#wrapper h1 {
     margin-top: 15px;
     font-size: 48px;
     line-height: 52px;
     font-weight: bold;
-    }
+}
 
-    #wrapper h2 {
+#wrapper h2 {
     font-size: 24px;
     font-weight: normal;
     line-height: 34px;
     margin-top: 8px;
     opacity: 0.9;
-    }
+}
 
-    #wrapper p {
+#wrapper p {
     font-size: 21px;
     line-height: 34px;
     max-width: 600px;
     margin: 15px auto 0;
     font-weight: lighter;
 
-    }
+}
 
-    #wrapper p a {
+#wrapper p a {
     color: var(--color-green);
-    }
+}
 
-    #wrapper p a:hover {
+#wrapper p a:hover {
     color: var(--color-green-hover);
     transition: color 500ms;
 
-    }
+}
 
-    .social {
+.social {
     padding: 60px 0;
-    }
+}
 
-    .skill {
+.skill {
 
     text-align: center;
 
-    }
+}
 
-    .skill ul {
+.skill ul {
     margin-top: 10px;
-    }
+}
 
-    .skill li {
+.skill li {
     text-emphasis: none;
-    }
+}
 
-    .footer {
+.footer {
     border-top: 1px solid #333333;
     background-color: #00000060;
     padding: 16px;
-    }
+}
 
-    .footer-conteiner {
+.footer-conteiner {
     text-align: center;
-    }
+}
 
-    .footer-conteiner a {
+.footer-conteiner a {
     text-decoration: none;
     color: #50fa7b;
-    }
-
+}
 ```
+
+</details>
 
 <p align="right">
     <a href="https://edusouza-programmer.github.io/">
