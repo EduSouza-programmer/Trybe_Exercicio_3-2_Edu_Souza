@@ -507,7 +507,7 @@ header {
 
 ### Project_1°
 
-#### Projeto: página web sobre viagens
+#### Página web sobre viagens
 
 -   Esse projeto, você vai usar tudo o que aprendeu até agora para criar um site de viagens incentivando as pessoas a visitar um lugar exótico. Você deve ter imagens do que elas vão ver, listas de coisas para ver e lugares para ir e parágrafos de detalhes interessantes. Você também deve usar CSS para estilizar o site, usando uma mistura de seletores simples que você aprendeu.
 
