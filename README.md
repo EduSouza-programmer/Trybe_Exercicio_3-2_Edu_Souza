@@ -85,7 +85,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 <details>
  <summary>Resolução do meu HTML</summary>
 
-```dart
+```html
 <!DOCTYPE html>
 <html lang="pt">
     <head>
