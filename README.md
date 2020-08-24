@@ -71,6 +71,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 ### Minha página web estilizada o/
 
 <p>Link para meu portfólio web: <a href="https://edusouza-programmer.github.io/" target="_blank">Home</a>.</p>
+
 **PS: Conforme estou avançando nos estudos na Trybe, o código abaixo pode está desatualizado em relação ao meu aprendizado, para uma analise atual, peço que inspencione em seu navegador minha página citada acima.**
 
 #### Código HTML:
