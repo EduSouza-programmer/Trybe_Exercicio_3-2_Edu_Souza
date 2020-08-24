@@ -85,61 +85,68 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 <details>
  <summary>Resolução do meu HTML</summary>
 
-```HTML
+```html
 <!DOCTYPE html>
 <html lang="pt">
     <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eduardo Souza</title>
-    <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Eduardo Souza</title>
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-    <header>
-        <div class="links">
-            <a href="#">Sobre</a>
-            <a href="/Exercícios_HTML/projeto_Livro-de-receitas.html" target="_blank">Projeto</a>
-        </div>
-    </header>
-    <main>
-        <div id="wrapper">
-            <a href="https://avatars0.githubusercontent.com/u/23068430?s=400&u=fdf94a10158b5f9e4a694c98c48c2dd192eba4e0&v=4"
-                target="_blank">
-                <img src="https://avatars0.githubusercontent.com/u/23068430?s=400&u=fdf94a10158b5f9e4a694c98c48c2dd192eba4e0&v=4"
-                alt="A foto de um acar muito gente fina chamando:Eduardo Souza">
-            </a>
-            <h1>Eduardo Souza</h1>
-            <h2>Estudante turma 7 - Trybe</h2>
-            <p>Olá tudo bem?! Sou web developer júnior, brasileiro, morando no estado do <em>Rio de
-                janeiro</em>, estou focado nos estudos para alcançar os objetivos da profissão, apredendo com a
-                <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.
-            </p>
-        </div>
-        <div class="skill">
-            <h2>Habilidades (soft skills)</h2>
-            <ul>
-                <li><strong>Perseverante</strong></li>
-                <li>Proatividade</li>
-                <li><strong>Comunicação</strong></li>
-                <li>Resiliência</li>
-                <li><em>Ambição</em></li>
-                <li><strong>Adaptabilidade</strong></li>
-            </ul>
-        </div>
-    </main>
-    <section class="social">
-        <div class="links">
-            <a href="https://github.com/EduSouza-programmer?tab=repositories" target="_blank">GitHub</a>
-            <a href="https://www.facebook.com/profile.php?id=100003755834780" target="_blank">Facebook</a>
-            <a href="https://www.linkedin.com/in/eduardosouzaprogrammer/" target="_blank">Linkedin</a>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="footer-conteiner">
-            <p>Feito com &hearts; por <em><a href="https://www.linkedin.com/in/eduardosouzaprogrammer/">
-            Edu Souza</a></em></p>
-        </div>
-    </footer>
+        <header>
+            <div class="links">
+                <a href="#">Sobre</a>
+                <a href="/Exercícios_HTML/projeto_Livro-de-receitas.html" target="_blank">Projeto</a>
+            </div>
+        </header>
+        <main>
+            <div id="wrapper">
+                <a
+                    href="https://avatars0.githubusercontent.com/u/23068430?s=400&u=fdf94a10158b5f9e4a694c98c48c2dd192eba4e0&v=4"
+                    target="_blank"
+                >
+                    <img
+                        src="https://avatars0.githubusercontent.com/u/23068430?s=400&u=fdf94a10158b5f9e4a694c98c48c2dd192eba4e0&v=4"
+                        alt="A foto de um acar muito gente fina chamando:Eduardo Souza"
+                    />
+                </a>
+                <h1>Eduardo Souza</h1>
+                <h2>Estudante turma 7 - Trybe</h2>
+                <p>
+                    Olá tudo bem?! Sou web developer júnior, brasileiro, morando no estado do <em>Rio de janeiro</em>,
+                    estou focado nos estudos para alcançar os objetivos da profissão, apredendo com a
+                    <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.
+                </p>
+            </div>
+            <div class="skill">
+                <h2>Habilidades (soft skills)</h2>
+                <ul>
+                    <li><strong>Perseverante</strong></li>
+                    <li>Proatividade</li>
+                    <li><strong>Comunicação</strong></li>
+                    <li>Resiliência</li>
+                    <li><em>Ambição</em></li>
+                    <li><strong>Adaptabilidade</strong></li>
+                </ul>
+            </div>
+        </main>
+        <section class="social">
+            <div class="links">
+                <a href="https://github.com/EduSouza-programmer?tab=repositories" target="_blank">GitHub</a>
+                <a href="https://www.facebook.com/profile.php?id=100003755834780" target="_blank">Facebook</a>
+                <a href="https://www.linkedin.com/in/eduardosouzaprogrammer/" target="_blank">Linkedin</a>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-conteiner">
+                <p>
+                    Feito com &hearts; por
+                    <em><a href="https://www.linkedin.com/in/eduardosouzaprogrammer/"> Edu Souza</a></em>
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
 ```
@@ -152,7 +159,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
  <summary>Resolução do meu CSS</summary>
 
-```CSS
+```css
 @import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap";
 
 :root {
