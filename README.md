@@ -332,6 +332,9 @@ header {
 
 #### Resposta:
 
+<details>
+<summary>Código HTML</summary>
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -361,6 +364,8 @@ header {
 </html>
 ```
 
+</details>
+
 <p align="right">
     <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_3-2_Edu_Souza/parte-1/challenge-ids_sazonais.html">
     <img alt="Go index.html" src="https://img.shields.io/badge/Go-index.html-orange">
@@ -382,6 +387,8 @@ header {
 
 #### Resposta:
 
+<details>
+<summary>Código HTML</summary>
 ```html
 <!DOCTYPE html>
 <html>
@@ -422,8 +429,10 @@ header {
             Earth, water, fire. Together, we are CAPTAIN PLANET!
         </p>
     </body>
+
 </html>
 ```
+</details>
 
 <p align="right">
     <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_3-2_Edu_Souza/parte-2/challenge_formatos_de_fonte_famosos.html">
@@ -444,6 +453,8 @@ header {
 
 #### Resposta:
 
+<details>
+<summary>Código HTML</summary>
 ```html
 <!DOCTYPE html>
 <html>
@@ -476,8 +487,10 @@ header {
             Great big words. La la la la la la la la la la!
         </p>
     </body>
+
 </html>
 ```
+</details>
 
 <p align="right">
     <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_3-2_Edu_Souza/parte-2/challenge_tamanhos_de_fonte_enormes.html">
@@ -490,7 +503,7 @@ header {
 
 #
 
-### Projetos
+## Projetos
 
 ### Project_1°
 
@@ -786,6 +799,8 @@ header {
     <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
   </a>
 </p>
+
+#
 
 ## Licença
 
