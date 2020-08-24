@@ -85,7 +85,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 <details>
  <summary>Resolução do meu HTML</summary>
 
-```dart
+```HTML
 <!DOCTYPE html>
 <html lang="pt">
     <head>
@@ -152,7 +152,7 @@ Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 
  <summary>Resolução do meu CSS</summary>
 
-```dart
+```CSS
 @import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap";
 
 :root {
